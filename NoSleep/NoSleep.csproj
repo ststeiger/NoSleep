@@ -87,7 +87,6 @@
   <ItemGroup>
     <Content Include="NoSleep.png" />
     <EmbeddedResource Include="NoSleep.ico" />
-    <EmbeddedResource Include="bing.ico" />
     <Content Include="Libs\WindowsInput.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
