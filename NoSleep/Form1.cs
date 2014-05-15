@@ -96,6 +96,7 @@ namespace NoSleep
 
         private void btnStartSimulate_Click(object sender, EventArgs e)
         {
+            this.btnStartSimulate.Text = "Running";
             MouseEventSimulator.StartAsync(5, 100);
             this.WindowState = FormWindowState.Minimized;
         } // End Sub btnStartSimulate_Click
